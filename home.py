@@ -4,8 +4,8 @@ import pandas as pd
 st.title("Webite Developing using Python")
 st.header("Webite Developing using Python")
 
-st.image('./imp/sharp.jpg')
-st.subheader("Ramnarin Karuna")
+st.image('./img/f.jpg')
+st.subheader("Hassaporn Paksa")
 
 dt=pd.read_csv('./data/iris-3.csv')
 st.header("ข้อมูลดอกไม้")
