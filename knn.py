@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 st.header('kairung')
-#st.image("./pic/kairung.jpg")
+st.image("./img/f.jpg")
 col1, col2, col3 = st.columns(3)
 with col1:
 st.header("Versicolor")
@@ -24,7 +24,7 @@ html_7 = """
 """
 st.markdown(html_7, unsafe_allow_html=True)
 st.markdown("")
-dt = pd.read_csv("./data/iris-3.csv")
+dt = pd.read_csv("./data/iris.csv")
 st.write(dt.head(10))
 dt1 = dt['petallength'].sum()
 dt2 = dt['petalwidth'].sum()
