@@ -59,10 +59,10 @@ if st.button("ทำนายผล"):
  st.write(Knn_model.predict(x_input))
  out=Knn_model.predict(x_input)
  if out[0] == 'Setosa':
-  st.image("./imp/iris1.jpg")
+  st.image("./img/iris1.jpg")
  elif out[0] == 'Versicolor':
-  st.image("./imp/iris2.jpg")
+  st.image("./img/iris2.jpg")
  else:
-  st.image("./imp/iris3.jpg")
+  st.image("./img/iris3.jpg")
 else:
  st.write("ไม่ทำนาย")
